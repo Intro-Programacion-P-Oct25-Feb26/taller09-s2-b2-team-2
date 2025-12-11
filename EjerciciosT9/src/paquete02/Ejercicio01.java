@@ -70,6 +70,9 @@ public class Ejercicio01 {
 
             }
         }
+         /* Finalmente usaremos un ciclo donde evaluará cuantas numeros pertenecen al rango del 1 al 5,
+            cuantos del 6 al 10, cuantos del 11 al 15 y cuantos del 16 al 20 */
+         
         for (int i = 0; i < rangos.length; i++) {
             System.out.printf("Rango %s - valor %d\n", rangos[i],
                     valoresRangos[i]);
